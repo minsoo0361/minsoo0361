@@ -31,10 +31,11 @@
 - 👨‍👩‍👧‍👦 1남 1녀 중 장남
 
 
-#### :pencil2: Study log
- 
+#### :pencil2: Study log 
+  <br/>    
+  
+  - 컴퓨터 활용능력 1급
+  - OPIC IH
+  - 한국사 능력검정 1급
+    
   <br/>
-  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=893107&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-  
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=somm&color=dark)](https://velog.io/@somm)
