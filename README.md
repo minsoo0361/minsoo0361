@@ -19,12 +19,16 @@
 </div>
 <div align="right"> 
 
-###  <img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=Instagram&logoColor=white"> min__nin_
+###  <img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=Instagram&logoColor=white"> @min__nin_
 </div>  
  <br/>
  
    <br/>
    <br/>
+
+   
+### 📂 Profile
+
 
 - 🥇 2015.02 계성고등학교 102기 졸업
 - 🥈 2018.04.24 육군병장 만기제대
