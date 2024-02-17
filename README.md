@@ -2,9 +2,9 @@
 
 ![header](https://capsule-render.vercel.app/api?type=cylinder&color=000000&height=150&section=header&text=MinSooKim&fontColor=ffffff&fontSize=70&animation=fadeIn&fontAlignY=55&desc=%20&descAlignY=62&descAlign=62)
   
-###  <img src ="https://img.shields.io/badge/Nike-000000?style=for-the-badge&logo=Nike&logoColor=white"> 대한민국의 자랑 토트넘 손흥민, PSG 이강인 화이팅 <img src ="https://img.shields.io/badge/Adidas-000000?style=for-the-badge&logo=Adidas&logoColor=white">
+###  <img src ="https://img.shields.io/badge/Nike-000000?style=for-the-badge&logo=Nike&logoColor=white"> 대한민국의 자랑 토트넘 손흥민 화이팅 <img src ="https://img.shields.io/badge/Adidas-000000?style=for-the-badge&logo=Adidas&logoColor=white">
 <img src = "https://cdn.newsian.co.kr/news/photo/202311/65522_44075_3316.jpg" width = "300" height = "400"/>
-<img src = "https://imgfootball.ytn.co.kr/osen/2023/10/202310150118020142_1.jpg" width = "300" height = "400"/>
+
  <br/>
  <br/>
   
@@ -18,6 +18,7 @@
 <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
 </div>
 <div align="right"> 
+![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361!&show_icons=true&theme=highcontrast)  
 
 ###  <img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=Instagram&logoColor=white"> @min__nin_
 </div>  
