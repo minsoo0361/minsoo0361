@@ -18,7 +18,7 @@
 <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
 </div>
 <div align="right"> 
-![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361!&show_icons=true&theme=highcontrast)  
+![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361&show_icons=true&theme=highcontrast)  
 
 ###  <img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=Instagram&logoColor=white"> @min__nin_
 </div>  
