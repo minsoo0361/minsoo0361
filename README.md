@@ -17,7 +17,7 @@
 #### 🥇: GitHub
 [![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361&include_all_commits=true&show_icons=true&theme=highcontrast)](https://github.com/minsoo0361/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kei03016)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kei03016)](https://github.com/kei03016/github-readme-stats)
 
 
   
