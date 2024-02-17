@@ -11,9 +11,7 @@
 ####  :clipboard: Once I've been
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kei03016)](https://solved.ac/kei03016)
-[![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?
-username=minsoo0361&include_all_commits=true&show_icons=true&theme=cobalt)]
-(https://github.com/minsoo0361/github-readme-stats)
+[![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361&include_all_commits=true&show_icons=true&theme=cobalt)](https://github.com/minsoo0361/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username={kei03016(string)})](https://github.com/anuraghazra/github-readme-stats)
 
