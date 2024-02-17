@@ -10,7 +10,11 @@
   
 ####  :clipboard: Once I've been
 
+### : 백준 티어
+
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kei03016)](https://solved.ac/kei03016)
+
+### : GitHub
 [![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361&include_all_commits=true&show_icons=true&theme=highcontrast)](https://github.com/minsoo0361/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username={kei03016(string)})](https://github.com/anuraghazra/github-readme-stats)
