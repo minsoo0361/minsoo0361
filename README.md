@@ -20,6 +20,8 @@
 <div align="right"> 
 ![minsoo0361's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361&show_icons=true&theme=highcontrast)  
 
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kei03016)](https://solved.ac/kei03016)
 ###  <img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=Instagram&logoColor=white"> @min__nin_
 </div>  
  <br/>
