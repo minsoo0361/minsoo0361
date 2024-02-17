@@ -10,6 +10,9 @@
   
 ####  :clipboard: Once I've been
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kei03016)](https://solved.ac/kei03016)
+[![github stats](https://github-readme-stats.vercel.app/api?username={kei03016(string)})](https://github.com/anuraghazra/github-readme-stats)
+
   
  <br/>
   
@@ -18,9 +21,8 @@
 <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
 </div>
 <div align="right"> 
-![K-Junyyy's GitHub stats](https://github-readme-stats.vercel.app/api?username=minsoo0361&show_icons=true&theme=highcontrast)  
+  
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kei03016)](https://solved.ac/kei03016)
 ###  <img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=Instagram&logoColor=white"> @min__nin_
 </div>  
  <br/>
