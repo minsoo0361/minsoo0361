@@ -11,8 +11,7 @@
 ####  :clipboard: Once I've been
 
 #### 🥇: 백준 티어
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kei03016)](https://solved.ac/kei03016)
+![Solved.ac profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kei03016)
 
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
