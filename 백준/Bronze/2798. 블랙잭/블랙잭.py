@@ -1,13 +1,18 @@
 N, M = map(int, input().split())
-arr = list(map(int, input().split()))
-sum_lst = []
+card = list(map(int, input().split()))
+arr = []
 for i in range(N):
-    for j in range(N):
-        for k in range(N):
-            if i != j and j != k and i != k:
-                sum_lst.append(arr[i]+arr[j]+arr[k])
-pos_lst = []
-for i in set(sum_lst):
-    if i <= M:
-        pos_lst.append(i)
-print(max(pos_lst))
+    for j in range(i+1, N):
+        for k in range(j+1, N):
+            arr.append(card[i]+card[j]+card[k])
+arr.sort()
+strange = []
+if M not in arr:
+    for i in range(len(arr)):
+        if arr[i] < M:
+            strange.append(arr[i])
+    print(max(strange))
+else:
+    print(M)
+
+
