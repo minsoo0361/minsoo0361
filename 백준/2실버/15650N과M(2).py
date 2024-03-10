@@ -1,14 +1,24 @@
-N, M = map(int, input().split())
-answer = []
-def back(start):
-    if len(answer) == M:
-        print(' '.join(map(str, answer)))
+def back():
+    if len(arr) == M:
+        print(*arr)
         return
-    for i in range(start, N+1):
-        if i not in answer:
-            answer.append(i)
-            back(i+1)
-            answer.pop()
+    else:
+        for i in range(1, N+1):
+            if len(arr) == 0:
+                arr.append(i)
+                back()
+                arr.pop()
+            else:
+                if i >= arr[-1]:
+                    arr.append(i)
+                    back()
+                    arr.pop()
 
-back(1)
 
+N, M = map(int, input().split())
+arr = []
+back()
+
+
+# N = 3일때, arr = [1, 2, 3]
+# 하나선택해서
