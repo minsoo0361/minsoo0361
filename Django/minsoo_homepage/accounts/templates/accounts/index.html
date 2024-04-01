@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>구미 3반 알(고리즘)쓰(터디)</h1>
+<h2>Hello, {{user.username}} 님! </h2>
+<a href="{% url "accounts:login" %}">[LOGIN]</a>
+<form action="{% url "accounts:logout" %}" method='POST'>
+{% csrf_token %}
+<input type="submit" value="LOGOUT">
+
+</form>
+<h1>전체 스터디원 목록</h1>
+{% for account in accounts %}
+<ul>
+  <li>
+    {{account.username}}
+    <hr>
+    
+</li>
+</ul>
+{% endfor %}
+{% endblock content %}
