@@ -105,6 +105,6 @@ for i in RK:
 print()
 RR = [RealR_y, RealR_x]
 for i in RR:
-    print(i, end ='')
+    print(i, end =' ')
 
 
