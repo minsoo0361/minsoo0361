@@ -1,43 +1,35 @@
-import sys
-input = sys.stdin.readline
-from collections import deque
+def dfs(x):
+    check_dfs[x]= True
+    print(x, end = " ")
+    for i in node[x]:
+        if check_dfs[i] == False:
+            dfs(i)
+        
 
-def dfs(i):
-    visited_dfs[i] = True
-    print(i, end = ' ')
-    for w in graph[i]:
-        if not visited_dfs[w]:
-            dfs(w)
-
-
-def bfs(i):
-    queue = deque()
-    visited_bfs[i] = True
-    queue.append(i)
+def bfs(x):
+    check_bfs[x] = True
+    queue.append(x)
 
     while queue:
-        n = queue.popleft()
-        print(n, end = ' ')
-        for w in graph[n]:
-            if not visited_bfs[w]:
-                visited_bfs[w] = True
-                queue.append(w)
+        n = queue.pop(0)
+        print(n, end = " ")
+        for i in node[n]:
+            if check_bfs[i] == False:
+                check_bfs[i] = True
+                queue.append(i)
 
-
-N, M, V = map(int, input().split())
-visited_dfs = [False] * (N+1)
-visited_bfs = [False] * (N+1)
-graph = [[] for _ in range(N+1)]
-for _ in range(M):
+n, m, v = map(int,input().split())
+node = [[] for _ in range(n+1)]
+check_dfs= [False for _ in range(n+1)]
+check_bfs= [False for _ in range(n+1)]
+queue = []
+for _ in range(m):
     a, b = map(int, input().split())
-    graph[a].append(b)
-    graph[b].append(a)
-for k in graph:
+    node[a].append(b)
+    node[b].append(a)
+for k in node:
     k.sort()
 
-dfs(V)
+dfs(v)
 print()
-bfs(V)
-
-
-
+bfs(v)

@@ -1,20 +1,10 @@
-def dfs(cnt, sm):
-    global total
-    if sm == n:
-        total += 1
-        return
-    if cnt == n:
-
-        return
-    dfs(cnt + 1, sm + 1)
-    dfs(cnt + 1, sm + 2)
-    dfs(cnt + 1, sm + 3)
-
-
-T = int(input())
-for tc in range(1, T + 1):
+N = int(input())
+dp = [0] * 9999
+dp[1] = 1
+dp[2] = 2
+dp[3] = 4
+for i in range(4, 999):
+    dp[i] = dp[i-3] + dp[i-2] + dp[i-1]
+for tc in range(N):
     n = int(input())
-    total = 0
-
-    dfs(0, 0)
-    print(total)
+    print(dp[n])
