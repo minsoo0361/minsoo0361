@@ -1,14 +1,22 @@
 N = int(input())
-card = list(map(int, input().split()))
+card = sorted(list(map(int, input().split())))
 M = int(input())
-nm = list(map(int, input().split()))
-dic = {}
-for i in range(len(card)):
-    dic[card[i]] = 0
-for j in nm:
-    if j in dic:
+number = list(map(int, input().split()))
+
+for i in number:
+    low = 0
+    high = N-1
+    idx = False    
+    while low <= high:
+        middle = (low + high) // 2
+        if card[middle] > i:
+            high = middle - 1
+        elif card[middle] < i:
+            low = middle + 1
+        else:
+            idx = True
+            break    
+    if idx:
         print(1, end = ' ')
     else:
-        print(0, end = ' ')
-
-
+        print(0, end = ' ')    
