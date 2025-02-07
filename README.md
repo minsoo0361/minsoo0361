@@ -9,7 +9,7 @@
  <br/>
   
 ####  :clipboard: Once I've been
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:fbc2eb,100:a6c1ee&text=CHA%20SANG%20GON&fontColor=CC99FF&animation=blinking)
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:fbc2eb,100:a6c1ee&text=KIM%20MIN%20SOO&fontColor=FFEED2&animation=blinking)
 #### 🥇: 백준 티어
 ![Solved.ac profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kei03016)
 
