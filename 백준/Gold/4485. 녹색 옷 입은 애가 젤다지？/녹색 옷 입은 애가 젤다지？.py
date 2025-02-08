@@ -1,42 +1,32 @@
-import sys
 import heapq
-input = sys.stdin.readline
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
+def dijkstra(a, b):
+    q = []
+    heapq.heappush(q, (graph[a][b], a, b))
+    dist[a][b] = graph[a][b]
 
-def dijkstra():
-    queue = []
-    heapq.heappush(queue, (0, 0, graph[0][0]))
-    distance[0][0] = 0
-
-    while queue:
-        x, y, cost = heapq.heappop(queue)
-
-        if x == n - 1 and y == n - 1:
-            print(f'Problem {cnt}: {distance[x][y]}')
-            break
-
-        for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
-
-            if 0 <= nx < n and 0 <= ny < n:
-                new_cost = cost + graph[nx][ny]
-
-                if new_cost < distance[nx][ny]:
-                    distance[nx][ny] = new_cost
-                    heapq.heappush(queue, (nx, ny, new_cost))
-
-cnt = 1
+    while q:
+        distance, start, end = heapq.heappop(q)
+        if distance > dist[start][end]:
+            continue
+        dx = [0, 0, 1, -1]
+        dy = [1, -1, 0, 0]
+        for k in range(4):
+            nx = start + dx[k]
+            ny = end + dy[k]            
+            if 0 <= nx < N and 0 <= ny <N:
+                new_cost = graph[nx][ny] + distance
+                if new_cost < dist[nx][ny]:
+                    dist[nx][ny] = new_cost
+                    heapq.heappush(q, (new_cost, nx, ny))
+cnt = 0                    
 while True:
-    n = int(input())
-    if n == 0:
+    N = int(input())
+    if N == 0:
         break
-
-    INF = int(1e9)
-    graph = [list(map(int, input().split())) for _ in range(n)]
-    distance = [[INF] * n for _ in range(n)]
-
-    dijkstra()
+    graph = [list(map(int, input().split())) for _ in range(N)]
+    INF = 1e9
+    dist = [[INF] * (N) for _ in range(N)]
+    dijkstra(0, 0)
     cnt += 1
+    print(f'Problem {cnt}: {dist[N-1][N-1]}')
