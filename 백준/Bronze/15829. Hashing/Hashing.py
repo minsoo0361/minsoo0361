@@ -8,4 +8,4 @@ result = 0
 for i in range(L):
     result += alpha[arr[i]] * (31 ** i)
 
-print(result)
+print(result % 1234567891)
