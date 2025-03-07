@@ -1,4 +1,4 @@
-A, B, C = list(map(int, input().split()))
-arr = [A, B, C]
-arr.sort()
-print(arr[1])
+lst = list(map(int, input().split()))
+lst.sort()
+lst.pop()
+print(lst.pop())
