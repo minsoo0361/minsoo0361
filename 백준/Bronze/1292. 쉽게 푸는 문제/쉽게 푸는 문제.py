@@ -1,8 +1,8 @@
-A, B = map(int, input().split())
-arr = [[i] for i in range(1001)]
-lst = []
-for i in range(1, 1001):
-    arr[i] = arr[i] * i
-    for j in arr[i]:
-        lst.append(j)
-print(sum(lst[A-1:B]))
+a, b = map(int, input().split())
+arr = [i for i in range(1, 101)]
+answer = []
+k = []
+for i in range(1, len(arr)):
+    answer.extend([i] * arr[i-1])
+k = answer[a-1:b]
+print(sum(k))
