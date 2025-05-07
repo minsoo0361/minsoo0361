@@ -22,5 +22,5 @@ while 1:
         break
 
     heapq.heappush(q, a+b)
-    
+
 print(result)
