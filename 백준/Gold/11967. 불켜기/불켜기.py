@@ -20,8 +20,8 @@ def bfs():
                     ny = b + dy[k]
 
                     if 0 <= nx < N and 0 <= ny < N and visited[nx][ny] == True:
-                        visited[nx][ny] = True
-                        queue.append((nx, ny))
+                        visited[a][b] = True
+                        queue.append((a, b))
         
         for i in range(4):
             nx = bx + dx[i]
