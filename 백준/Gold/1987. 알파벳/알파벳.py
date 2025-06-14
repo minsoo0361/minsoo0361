@@ -1,30 +1,30 @@
-from collections import deque
+# DFS 방식
+import sys
+input = sys.stdin.readline
 
-dx = [1, -1, 0, 0]
-dy = [0, 0, 1, -1]
+di = [-1,1,0,0]
+dj = [0,0,-1,1]
 
+def dfs(ci, cj, cnt):
+    global result
+    result = max(result, cnt)
 
-def dfs(x, y, count):
-    global max_cnt
+    #4방향 탐색, 범위 내, 중복값 아닌 경우
+    for dir in range(4):
+        ni = ci + di[dir]
+        nj = cj + dj[dir]
+        if 0 <= ni < r and 0 <= nj < c and visited[ord(alpha_lst[ni][nj])] == 0:
+            visited[ord(alpha_lst[ni][nj])] = 1
+            dfs(ni, nj, cnt+1)
+            visited[ord(alpha_lst[ni][nj])] = 0
+    return result
 
-    max_cnt = max(max_cnt, count)
+r, c = map(int, input().split())
+alpha_lst = list(input() for _ in range(r))
+result = 1
+visited = [0] * 128 #아스키 코드 개수만큼 생성
 
-    for k in range(4):
-        nx = x + dx[k]
-        ny = y + dy[k]
+visited[ord(alpha_lst[0][0])] = 1 #방문 표시
+dfs(0, 0, 1) #currnet i, current j, cnt
 
-        if 0 <= nx < R and 0 <= ny < C:
-            alpha_index = ord(board[nx][ny]) - ord('A')
-            if not visited[alpha_index]:
-                visited[alpha_index] = True
-                dfs(nx, ny, count + 1)
-                visited[alpha_index] = False
-
-R, C = map(int, input().split())
-board = [list(map(str, input())) for _ in range(R)]
-visited = [False] * 26
-max_cnt = 1
-visited[ord(board[0][0]) - ord('A')] = True
-
-dfs(0, 0, 1)
-print(max_cnt)
+print(result)
