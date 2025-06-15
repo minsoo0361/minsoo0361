@@ -27,3 +27,5 @@ while money > 0:
         money = money - cnt * 1
         answer += cnt
 print(answer)
+
+
