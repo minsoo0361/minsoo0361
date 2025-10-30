@@ -1,15 +1,23 @@
-def solution(n, computers):    
+from collections import deque
+def solution(n, computers):
     answer = 0
-    visited = [False for _ in range(n)] # 방문 여부 저장 배열. 현재 [False, False, False]
-    for com in range(n):    # com = 0, 1, 2
-        if visited[com] == False:   # visited[0] == False,
-            DFS(n, computers, com, visited)
+    visited = [False] * n
+    
+    for i in range(n):
+        if not visited[i]:
             answer += 1
+            bfs(i, n, computers, visited)
     return answer
 
-def DFS(n, computers, com, visited):
-    visited[com] = True # 해당 노드의 방문을 True로 변경
-    for i in range(n):  # 0, 1, 2
-        if i != com and computers[i][com] == 1 and visited[i] == False:
-            DFS(n, computers, i, visited)
+def bfs(start_node, n, computers, visited):
+    queue = deque([start_node])
+    visited[start_node] = True
     
+    while queue:
+        u = queue.popleft()
+        
+        for v in range(n):
+            if computers[u][v] == 1 and u != v and not visited[v]:
+                visited[v] = True
+                queue.append(v)
+            
